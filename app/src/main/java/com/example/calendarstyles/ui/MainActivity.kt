@@ -2,6 +2,7 @@ package com.example.calendarstyles.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.calendarstyles.R
 import com.example.calendarstyles.databinding.ActivityMainBinding
 
 class MainActivity: AppCompatActivity() {
@@ -22,5 +23,6 @@ class MainActivity: AppCompatActivity() {
 
     private fun setupCalendar() {
         binding.calendarView
+//        binding.constraint.setBackgroundColor()
     }
 }
